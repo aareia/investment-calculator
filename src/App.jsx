@@ -1,12 +1,19 @@
 import Header from "./components/Header"
-import InputGroup from "./components/InputGroup"
 import UserInput from "./components/UserInput"
 
 function App() {
+
+  let initialInvestment = 0;
+  let anualInvestment = 0;
+  let expectedReturn = 0;
+  let duration = 0;
+
+  console.log(initialInvestment)
+
   return (
     <main>
       <Header></Header>
-      <InputGroup></InputGroup>
+      <UserInput></UserInput>
     </main>
   )
 }
