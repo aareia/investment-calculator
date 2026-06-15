@@ -16,18 +16,10 @@ function App() {
     setUserInput(prevUserInput => {
         return {
             ...prevUserInput,
-            [inputIdentifier]: newValue
+            [inputIdentifier]: +newValue
         }
     })
   }
-  
-
-  let initialInvestment = 0;
-  let anualInvestment = 0;
-  let expectedReturn = 0;
-  let duration = 0;
-
-  console.log(initialInvestment)
 
   return (
     <main>
